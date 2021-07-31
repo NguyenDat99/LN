@@ -12,12 +12,12 @@ body{
   font-family: 'Public Sans', sans-serif;
   color: $GrayishBlue;
   font-size: $font-med;
+  font-weight: 300;
   line-height: 1.3;
 }
 
 a,a:visited,a:hover{
   text-decoration: none;
-  color: $GrayishBlue;
 }
 // flex box 
 .flex{
@@ -32,9 +32,27 @@ a,a:visited,a:hover{
   &-ai-c{
     align-items: center;
   }
-&__link{
-  a{
-    font-size:$font-sm;
-  }
+
 }
+
+
+//buttons
+button, .button{
+padding: 1rem 1.875rem;
+background:linear-gradient(to right,$LimeGreen,$BrightCyan);
+border-radius: 50px;
+border: 0;
+cursor: pointer;
+color: $White;
+font-weight: 400;
+}
+
+//visibility
+.hide-for-mobile{
+  //hide for table and mobile
+  
+}
+.hide-for-desktop{
+  //hide for desktop viewport width
+  
 }

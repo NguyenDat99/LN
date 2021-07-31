@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.36.0"
+    "sass": "^1.37.0"
   },
   "dependencies": {
     "autoprefixer": "^10.3.1",
